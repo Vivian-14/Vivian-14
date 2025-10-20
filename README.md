@@ -63,17 +63,22 @@ https://github.com/Vivian-14/Vivian-14/blob/main/docs/_U2ACT4%20Especificaci%C3%
 https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT2%20Lista%20Encantada%20Humana%20en%20Java%20(4).pdf
 <img src="" width="30">
 
+## ✞  𝖀𝟐𝕲𝕭 - 𝕰𝖏𝖊𝖗𝖈𝖎𝖈𝖎𝖔𝖘 𝕾𝖎𝖒𝖕𝖑𝖊𝖘,𝕰𝖓𝖑𝖆𝖟𝖆𝖉𝖆𝖘,𝕮𝖎𝖗𝖈𝖚𝖑𝖆𝖗𝖊𝖘   𖤐
+https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT3%20Pr%C3%A1ctica%20Manual%20y%20Algor%C3%ADtmica%20Lista%20(4).pdf
 
+## ✞  𝔘𝟸𝔊𝔅 - ℜ𝔢𝔫𝔞𝔦𝔰𝔰𝔞𝔫𝔠𝔢𝔑𝔢𝔞𝔯𝔭𝔬𝔡
+https://github.com/Vivian-14/Vivian-14/blob/main/docs/Renaissance%20nearpod%20TERMINADO%20AVHT%20(3).pdf
+
+
+<h1 align="center"> <img src="https://i.pinimg.com/originals/8e/07/18/8e071836dc5d3f534138455fda54cc68.gif" width="300">
 
 # ⭐ 𝔘𝟸𝔊𝔅 - 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 
 
 
 
 ## ✞  𝔘𝟸𝔊𝔅 - 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰
-https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT3%20Pr%C3%A1ctica%20Manual%20y%20Algor%C3%ADtmica%20Lista%20(4).pdf
 <img src="" width="30">
 
-## ✞  𝔘𝟸𝔊𝔅 - ℜ𝔢𝔫𝔞𝔦𝔰𝔰𝔞𝔫𝔠𝔢𝔑𝔢𝔞𝔯𝔭𝔬𝔡
-https://github.com/Vivian-14/Vivian-14/blob/main/docs/Renaissance%20nearpod%20TERMINADO%20AVHT%20(3).pdf
+
 
 
