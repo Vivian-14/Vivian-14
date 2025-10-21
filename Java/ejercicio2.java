@@ -7,8 +7,13 @@ import java.io.*;
 import java.util.*;
 /**
  *
- * @author vians
+ * @author Alondra Vianney Hernandez Torres
  */
+//Actividad 02: Lista Enlazada de Palabras desde Archivo
+//Objetivo:
+//Desarrollar un programa que lea palabras desde un archivo de texto y las almacene en una
+//lista enlazada, permitiendo su manipulación dinámica.
+
 
 public class ejercicio2 {
     // cada nodo tiene una palabra y el enlace al siguiente
