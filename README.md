@@ -49,19 +49,19 @@
 
 ## ✞  𝔘𝟸𝔄ℭ𝔗𝟷 - 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞 𝔈𝔫𝔩𝔞𝔷𝔞𝔡𝔞 𝔖𝔦𝔪𝔭𝔩𝔢 𝔠𝔬𝔫 𝔙𝔦𝔰𝔲𝔄𝔩𝔤𝔬 𖤐
 https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT1%20Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo%20(5).pdf
-<img src="" width="30">
+
 
 ## ✞  𝔘𝟸𝔄ℭ𝔗𝟸 - 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬 𝔡𝔢 𝔓𝔦𝔩𝔞 𝔠𝔬𝔫 𝔙𝔦𝔰𝔲𝔄𝔩𝔤𝔬 𖤐
 https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT3%20Ejercicio%20de%20Pila%20con%20VisuAlgo.pdf
-<img src="" width="30">
+
 
 ## ✞  𝔘𝟸𝔄ℭ𝔗𝟸 - 𝔈𝔰𝔭𝔢𝔠𝔦𝔣𝔦𝔠𝔞𝔠𝔦ó𝔫 𝔡𝔢 𝔩𝔞 𝔓𝔦𝔩𝔞 𖤐
 https://github.com/Vivian-14/Vivian-14/blob/main/docs/_U2ACT4%20Especificaci%C3%B3n%20de%20la%20Pila.pdf
-<img src="" width="30">
+
 
 ## ✞  𝔘𝟸𝔄ℭ𝔗𝟸 - 𝔏𝔦𝔰𝔱𝔞 𝔈𝔫𝔠𝔞𝔫𝔱𝔞𝔡𝔞 ℌ𝔲𝔪𝔞𝔫𝔞 𝔢𝔫 𝔍𝔞𝔳𝔞  𖤐
 https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT2%20Lista%20Encantada%20Humana%20en%20Java%20(4).pdf
-<img src="" width="30">
+
 
 ## ✞  𝖀𝟐𝕲𝕭 - 𝕰𝖏𝖊𝖗𝖈𝖎𝖈𝖎𝖔𝖘 𝕾𝖎𝖒𝖕𝖑𝖊𝖘,𝕰𝖓𝖑𝖆𝖟𝖆𝖉𝖆𝖘,𝕮𝖎𝖗𝖈𝖚𝖑𝖆𝖗𝖊𝖘   𖤐
 https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT3%20Pr%C3%A1ctica%20Manual%20y%20Algor%C3%ADtmica%20Lista%20(4).pdf
@@ -77,7 +77,8 @@ https://github.com/Vivian-14/Vivian-14/blob/main/docs/Renaissance%20nearpod%20TE
 
 
 ## ✞  𝔘𝟸𝔊𝔅 - 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰
-<img src="" width="30">
+https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2GB%20Ejercicios%20Pr%C3%A1cticos%20Listas.pdf
+
 
 
 
