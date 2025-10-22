@@ -18,6 +18,17 @@
 
 
 <img align="right" width="400" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
+
+
+⭐𝑬𝒋𝒆𝒓𝒄𝒊𝒄𝒊𝒐𝒔 𝑮𝒖𝒊𝒂𝒅𝒐𝒔/𝑷𝒓𝒂𝒄𝒕𝒊𝒄𝒐𝒔⭐
+
+
+https://github.com/Vivian-14/Vivian-14/tree/main/docs
+
+⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
+
+
+https://github.com/Vivian-14/Vivian-14/tree/main/Java
   
 <h1>⭐ 𝕰𝖏𝖊𝖗𝖈𝖎𝖈𝖎𝖔𝖘 𝕲𝖚𝖎𝖆𝖉𝖔𝖘/𝕻𝖗𝖆𝖈𝖙𝖎𝖈𝖔𝖘</h1>
  
