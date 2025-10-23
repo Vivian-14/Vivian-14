@@ -22,6 +22,22 @@
 
 ⭐𝑬𝒋𝒆𝒓𝒄𝒊𝒄𝒊𝒐𝒔 𝑮𝒖𝒊𝒂𝒅𝒐𝒔/𝑷𝒓𝒂𝒄𝒕𝒊𝒄𝒐𝒔⭐
 
+[𝑬𝒋𝒆𝒓𝒄𝒊𝒄𝒊𝒐𝒔 𝑮𝒖𝒊𝒂𝒅𝒐𝒔/𝑷𝒓𝒂𝒄𝒕𝒊𝒄𝒐𝒔](
+https://github.com/Vivian-14/Vivian-14/tree/main/docs
+)
+
+ | GUIADOS | LINKS |
+| ------------- | ------------- |
+| U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞 𝔈𝔫𝔩𝔞𝔷𝔞𝔡𝔞 𝔖𝔦𝔪𝔭𝔩𝔢 𝔠𝔬𝔫 𝔙𝔦𝔰𝔲𝔄𝔩𝔤𝔬  | [Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT1%20Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo%20(5).pdf)|
+| U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬 𝔡𝔢 𝔓𝔦𝔩𝔞 𝔠𝔬𝔫 𝔙𝔦𝔰𝔲𝔄𝔩𝔤𝔬 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT3%20Ejercicio%20de%20Pila%20con%20VisuAlgo.pdf) |
+
+
+
+
+
+
+
+
 
 https://github.com/Vivian-14/Vivian-14/tree/main/docs
 
