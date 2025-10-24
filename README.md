@@ -33,6 +33,7 @@
 | U2ACT1 𝕰𝖏𝖊𝖗𝖈𝖎𝖈𝖎𝖔𝖘 𝕾𝖎𝖒𝖕𝖑𝖊𝖘,𝕰𝖓𝖑𝖆𝖟𝖆𝖉𝖆𝖘,𝕮𝖎𝖗𝖈𝖚𝖑𝖆𝖗𝖊𝖘  |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT3%20Pr%C3%A1ctica%20Manual%20y%20Algor%C3%ADtmica%20Lista%20(4).pdf) |
 | U2ACT1 ℜ𝔢𝔫𝔞𝔦𝔰𝔰𝔞𝔫𝔠𝔢𝔑𝔢𝔞𝔯𝔭𝔬𝔡 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Renaissance%20nearpod%20TERMINADO%20AVHT%20(3).pdf) |
 | U2ACT1 𝔑𝔢𝔞𝔯𝔭𝔬𝔡 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔭𝔦𝔩𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/NearPod%20-%20Pilas%2021_10_25.pdf) |
+| Colas  𝔑𝔢𝔞𝔯𝔭𝔬𝔡 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Ver ejercicio]() |
 
 
 
