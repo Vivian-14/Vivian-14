@@ -39,6 +39,9 @@
 ⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
 
 https://github.com/Vivian-14/Vivian-14/tree/main/Java
+
+ | PRACTICOS | LINKS |
+| ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2GB%20Ejercicios%20Pr%C3%A1cticos%20Listas.pdf) |
 | CODIGO 1 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/MainLista.java) |
 | CODIGO 2 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ejercicio2.java) |
