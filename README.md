@@ -34,7 +34,9 @@
 | U2ACT1 ℜ𝔢𝔫𝔞𝔦𝔰𝔰𝔞𝔫𝔠𝔢𝔑𝔢𝔞𝔯𝔭𝔬𝔡 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Renaissance%20nearpod%20TERMINADO%20AVHT%20(3).pdf) |
 | U2ACT1 𝔑𝔢𝔞𝔯𝔭𝔬𝔡 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔭𝔦𝔩𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/NearPod%20-%20Pilas%2021_10_25.pdf) |
 | Colas  𝔑𝔢𝔞𝔯𝔭𝔬𝔡 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/NearPod%20-%20Colas.pdf) |
-| Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Solucion]() |
+| Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Codigo 1 reto](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Cola.java) |
+| Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Codigo Menu Colas](https://github.com/Vivian-14/Vivian-14/blob/main/Java/PruebaCola.java) |
+
 
 
 ⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
