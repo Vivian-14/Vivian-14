@@ -36,6 +36,7 @@
 | Colas  𝔑𝔢𝔞𝔯𝔭𝔬𝔡 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/NearPod%20-%20Colas%20(1).pdf) |
 | Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Codigo 1 reto](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Cola.java) |
 | Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Codigo Menu Colas](https://github.com/Vivian-14/Vivian-14/blob/main/Java/PruebaCola.java) |
+| 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[VER VIDEO FUNCIONAL COLAS]() |
 
 
 
