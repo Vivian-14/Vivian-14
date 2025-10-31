@@ -9,51 +9,50 @@ import java.util.Scanner;
  * @author Alondra Vianney Hernandez Torres
  */
 //Actividad 04 
-//Polinomio con Lista Enlazada Circular                
-//Objetivo: Modificar la representación de un polinomio mediante lista enlazada simple para que se convierta en una lista circular, optimizando el acceso y recorrido continuo.
+//Polinomio con Lista Enlazada Circular (usando clase genérica <T>)
+//Objetivo: Aplicar listas enlazadas circulares usando tipos genéricos para mayor flexibilidad.
 
 
-
-class Nodo {
-    double coeficiente;
+class Nodo<T> {
+    T coeficiente;
     int exponente;
-    Nodo siguiente;
+    Nodo<T> siguiente;
 
-    public Nodo(double coef, int exp) {
+    public Nodo(T coef, int exp) {
         this.coeficiente = coef;
         this.exponente = exp;
         this.siguiente = null;
     }
 }
 
-// Clase para manejar la lista circular del polinomio
-class ListaCircularPolinomio {
-    private Nodo ultimo; // referencia al último nodo
+// Clase genérica que maneja un polinomio usando lista circular
+class ListaCircularPolinomio<T extends Number> {
+    private Nodo<T> ultimo; // referencia al último nodo (permite recorrer circularmente)
 
-    // Método para agregar un término al polinomio
-    public void agregarTermino(double coef, int exp) {
-        Nodo nuevo = new Nodo(coef, exp);
+    // Agrega un término al final del polinomio
+    public void agregarTermino(T coef, int exp) {
+        Nodo<T> nuevo = new Nodo<>(coef, exp);
 
         if (ultimo == null) {
-            // Primer nodo: apunta a sí mismo
+            // Primer nodo: apunta a sí mismo (lista circular)
             ultimo = nuevo;
             ultimo.siguiente = ultimo;
         } else {
-            // Inserta después del último y actualiza referencia circular
-            nuevo.siguiente = ultimo.siguiente; // el primero
+            // Inserta el nuevo después del último y mantiene el enlace circular
+            nuevo.siguiente = ultimo.siguiente;
             ultimo.siguiente = nuevo;
-            ultimo = nuevo; // el nuevo se convierte en el último
+            ultimo = nuevo; // ahora el nuevo se convierte en el último
         }
     }
 
-    // Método para mostrar el polinomio en forma legible
+    // Muestra el polinomio completo
     public void mostrarPolinomio() {
         if (ultimo == null) {
             System.out.println("El polinomio está vacío.");
             return;
         }
 
-        Nodo actual = ultimo.siguiente; // empieza en el primero
+        Nodo<T> actual = ultimo.siguiente; // empieza desde el primero
         System.out.print("P(x) = ");
         do {
             System.out.print(actual.coeficiente + "x^" + actual.exponente);
@@ -63,22 +62,24 @@ class ListaCircularPolinomio {
         System.out.println();
     }
 
-    // Método para evaluar el polinomio en un valor dado de x
+    // Evalúa el polinomio para un valor de x
     public double evaluar(double x) {
         if (ultimo == null) return 0.0;
 
         double resultado = 0.0;
-        Nodo actual = ultimo.siguiente; // comienza desde el primero
+        Nodo<T> actual = ultimo.siguiente;
 
         do {
-            resultado += actual.coeficiente * Math.pow(x, actual.exponente);
+            // Se convierte el coeficiente genérico a double para operar con Math.pow()
+            double coef = actual.coeficiente.doubleValue();
+            resultado += coef * Math.pow(x, actual.exponente);
             actual = actual.siguiente;
         } while (actual != ultimo.siguiente);
 
         return resultado;
     }
 
-    // Muestra una tabla de valores de P(x)
+    // Genera una tabla con valores de P(x)
     public void mostrarTablaValores() {
         System.out.println("\nTabla de valores:");
         System.out.println(" x\t|\tP(x)");
@@ -94,13 +95,14 @@ class ListaCircularPolinomio {
 public class maincircular {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ListaCircularPolinomio polinomio = new ListaCircularPolinomio();
+        // La clase se instancia usando Double para permitir operaciones numéricas
+        ListaCircularPolinomio<Double> polinomio = new ListaCircularPolinomio<>();
 
-        System.out.println("=== Polinomio con Lista Enlazada Circular ===");
+        System.out.println("=== Polinomio con Lista Enlazada Circular (Genérica) ===");
         System.out.print("¿Cuántos términos tendrá el polinomio?: ");
         int n = sc.nextInt();
 
-        // Entrada de coeficientes y exponentes
+        // Ingreso de datos del usuario
         for (int i = 0; i < n; i++) {
             System.out.println("\nTérmino " + (i + 1) + ":");
             System.out.print("Coeficiente: ");
@@ -110,13 +112,12 @@ public class maincircular {
             polinomio.agregarTermino(coef, exp);
         }
 
-        // Mostrar el polinomio completo
+        // Mostrar polinomio y tabla de valores
         System.out.println();
         polinomio.mostrarPolinomio();
-
-        // Mostrar tabla de valores
         polinomio.mostrarTablaValores();
 
         sc.close();
     }
 }
+
