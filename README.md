@@ -50,10 +50,10 @@ https://github.com/Vivian-14/Vivian-14/tree/main/Java
 | ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2GB%20Ejercicios%20Pr%C3%A1cticos%20Listas.pdf) |
 |   1 MANIPULACION LISTA ENLANZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/MainLista.java) |
-| CODIGO 2 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ejercicio2.java) |
-| CODIGO 3 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Listasss.java) |
-| CODIGO 4 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/maincircular.java) |
-| CODIGO 5 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Main.java) |
+| 2 LISTA ENLAZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ejercicio2.java) |
+| 3  POLINOMIOS CON LISTAS ENLAZADAS |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Listasss.java) |
+| 4 POLINOMIO LISTA ENLAZADA CIRCULAR |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/maincircular.java) |
+| 5 LISTA DOBLEMENTE ENLAZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Main.java) |
 
 
 
