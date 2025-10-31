@@ -9,29 +9,33 @@ import java.util.Scanner;
  * @author Alondra Vianney Hernandez Torres
  */
 //Actividad 05 
-//Lista Doblemente Enlazada de Caracteres  
+//Lista Doblemente Enlazada de Caracteres (usando clase genérica <T>)
+//Objetivo: Implementar una lista doblemente enlazada genérica con ordenamiento básico.
 
 
-class Nodo {
-    char dato;
-    Nodo anterior;
-    Nodo siguiente;
 
-    public Nodo(char dato) {
+// Clase Nodo genérica: puede almacenar cualquier tipo de dato (por ejemplo, Character)
+class Nodo<T> {
+    T dato;
+    Nodo<T> anterior;
+    Nodo<T> siguiente;
+
+    public Nodo(T dato) {
         this.dato = dato;
         this.anterior = null;
         this.siguiente = null;
     }
 }
 
-// Clase ListaDoble que maneja la estructura y el ordenamiento
-class ListaDoble {
-    private Nodo cabeza;
-    private Nodo cola;
+// Clase genérica para manejar la lista doblemente enlazada
+// Se limita a tipos que implementen Comparable (para poder comparar y ordenar)
+class ListaDoble<T extends Comparable<T>> {
+    private Nodo<T> cabeza;
+    private Nodo<T> cola;
 
-    // Agrega un carácter al final de la lista
-    public void agregarCaracter(char c) {
-        Nodo nuevo = new Nodo(c);
+    // Agrega un elemento al final de la lista
+    public void agregarElemento(T valor) {
+        Nodo<T> nuevo = new Nodo<>(valor);
 
         if (cabeza == null) {
             cabeza = cola = nuevo;
@@ -42,9 +46,9 @@ class ListaDoble {
         }
     }
 
-    // Método para mostrar la lista (de inicio a fin)
+    // Muestra la lista de inicio a fin
     public void mostrarLista() {
-        Nodo actual = cabeza;
+        Nodo<T> actual = cabeza;
         while (actual != null) {
             System.out.print(actual.dato + " ");
             actual = actual.siguiente;
@@ -52,19 +56,20 @@ class ListaDoble {
         System.out.println();
     }
 
-    // Método para ordenar alfabéticamente usando burbuja
+    // Ordena la lista con el método burbuja
     public void ordenarLista() {
         if (cabeza == null) return;
 
         boolean huboIntercambio;
         do {
             huboIntercambio = false;
-            Nodo actual = cabeza;
+            Nodo<T> actual = cabeza;
 
             while (actual.siguiente != null) {
-                if (actual.dato > actual.siguiente.dato) {
+                // Compara los datos usando compareTo()
+                if (actual.dato.compareTo(actual.siguiente.dato) > 0) {
                     // Intercambio de valores
-                    char temp = actual.dato;
+                    T temp = actual.dato;
                     actual.dato = actual.siguiente.dato;
                     actual.siguiente.dato = temp;
                     huboIntercambio = true;
@@ -75,32 +80,35 @@ class ListaDoble {
     }
 }
 
-// Clase principal con la lógica del programa
+// Clase principal con el flujo del programa
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ListaDoble lista = new ListaDoble();
+        // Se usa tipo Character para trabajar con caracteres individuales
+        ListaDoble<Character> lista = new ListaDoble<>();
 
-        System.out.println(" Lista Doblemente Enlazada de Caracteres ");
+        System.out.println("=== Lista Doblemente Enlazada de Caracteres (Genérica) ===");
         System.out.print("Ingresa una cadena de texto: ");
         String cadena = sc.nextLine();
 
-        // 1. Lectura y construcción de la lista
+        // 1. Crear la lista con cada carácter ingresado
         for (int i = 0; i < cadena.length(); i++) {
             char c = cadena.charAt(i);
-            lista.agregarCaracter(c);
+            lista.agregarElemento(c);
         }
 
+        // 2. Mostrar lista original
         System.out.println("\nLista original:");
         lista.mostrarLista();
 
-        // 2. Ordenamiento alfabético
+        // 3. Ordenar lista alfabéticamente
         lista.ordenarLista();
 
-        // 3. Mostrar lista ordenada
+        // 4. Mostrar lista ordenada
         System.out.println("\nLista ordenada alfabéticamente:");
         lista.mostrarLista();
 
         sc.close();
     }
 }
+
