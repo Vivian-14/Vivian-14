@@ -5,22 +5,23 @@
 package ej2;
 import java.io.*;
 import java.util.*;
+
 /**
  *
  * @author Alondra Vianney Hernandez Torres
  */
-//Actividad 02: Lista Enlazada de Palabras desde Archivo
-//Objetivo:
-//Desarrollar un programa que lea palabras desde un archivo de texto y las almacene en una
-//lista enlazada, permitiendo su manipulación dinámica.
+// Actividad 02: Lista Enlazada de Palabras desde Archivo
+// Objetivo:
+// Desarrollar un programa que lea palabras desde un archivo de texto y las almacene en una
+// lista enlazada, permitiendo su manipulación dinámica.
 
-
-public class ejercicio2 {
-    // cada nodo tiene una palabra y el enlace al siguiente
+public class ejercicio2<T> { // <-- Se agrega <T> para usar tipo genérico
+    // Clase interna Nodo, ahora genérica
     class Nodo {
-        String palabra;
-        Nodo sig;
-        Nodo(String palabra) {
+        T palabra;    // dato genérico (puede ser String, Integer, etc.)
+        Nodo sig;     // referencia al siguiente nodo
+
+        Nodo(T palabra) { // constructor
             this.palabra = palabra;
             this.sig = null;
         }
@@ -28,61 +29,65 @@ public class ejercicio2 {
 
     Nodo cabeza = null; // inicio de la lista
 
-    // Inserta una palabra al final de la lista
-    void insertar(String palabra) {
+    // Inserta un elemento al final de la lista
+    void insertar(T palabra) {
         Nodo nuevo = new Nodo(palabra);
-        if (cabeza == null) cabeza = nuevo;
+        if (cabeza == null) cabeza = nuevo; // si la lista está vacía
         else {
             Nodo temp = cabeza;
-            while (temp.sig != null) temp = temp.sig;
-            temp.sig = nuevo;
+            while (temp.sig != null) temp = temp.sig; // recorre hasta el final
+            temp.sig = nuevo; // enlaza el nuevo nodo al final
         }
     }
 
-    // Elimina la primera aparición de la palabra
-    boolean eliminar(String palabra) {
-        if (cabeza == null) return false;
+    // Elimina la primera aparición del elemento indicado
+    boolean eliminar(T palabra) {
+        if (cabeza == null) return false; // lista vacía, no hay nada que borrar
+
+        // Si el primer nodo es el que se debe eliminar
         if (cabeza.palabra.equals(palabra)) {
-            cabeza = cabeza.sig;
+            cabeza = cabeza.sig; // se salta el primer nodo
             return true;
         }
+
+        // Recorre buscando coincidencia
         Nodo ant = cabeza, temp = cabeza.sig;
         while (temp != null) {
-            if (temp.palabra.equals(palabra)) {
-                ant.sig = temp.sig;
+            if (temp.palabra.equals(palabra)) { // si encuentra la palabra
+                ant.sig = temp.sig; // desconecta el nodo
                 return true;
             }
             ant = temp;
             temp = temp.sig;
         }
-        return false;
+        return false; // si no la encontró
     }
 
-    // Muestra las palabras en consola
+    // Muestra el contenido actual de la lista
     void mostrar() {
         Nodo temp = cabeza;
         while (temp != null) {
-            System.out.print(temp.palabra + " ");
-            temp = temp.sig;
+            System.out.print(temp.palabra + " "); // imprime palabra por palabra
+            temp = temp.sig; // avanza al siguiente nodo
         }
-        System.out.println();
+        System.out.println(); // salto de línea al final
     }
 
-    // Lee palabras desde un archivo y las guarda en la lista
+    // Lee elementos desde un archivo y los inserta en la lista
     void leerArchivo(String nombreArchivo) {
         try (Scanner sc = new Scanner(new File(nombreArchivo))) {
-            while (sc.hasNext()) insertar(sc.next());
+            while (sc.hasNext()) insertar((T) sc.next()); // inserta palabra tras palabra
         } catch (IOException e) {
             System.out.println("Error leyendo archivo: " + e.getMessage());
         }
     }
 
-    // Escribe todas las palabras de la lista al archivo
+    // Escribe todos los elementos de la lista a un archivo
     void escribirArchivo(String nombreArchivo) {
         try (PrintWriter pw = new PrintWriter(new FileWriter(nombreArchivo))) {
             Nodo temp = cabeza;
             while (temp != null) {
-                pw.print(temp.palabra + " ");
+                pw.print(temp.palabra + " "); // guarda cada palabra separada por espacio
                 temp = temp.sig;
             }
         } catch (IOException e) {
@@ -90,25 +95,27 @@ public class ejercicio2 {
         }
     }
 
-    // Programa principal con menú
+    // Mainsito
     public static void main(String[] args) {
-        ListaArchivo lista = new ListaArchivo();
+        // Se usa tipo String en la lista genérica
+        ejercicio2<String> lista = new ejercicio2<>();
         Scanner sc = new Scanner(System.in);
-        String archivo = "palabras.txt";
+        String archivo = "palabras.txt"; // archivo de texto base
 
-        lista.leerArchivo(archivo);
+        lista.leerArchivo(archivo); // carga las palabras del archivo
         int opc;
         do {
+            // Menú interactivo simple
             System.out.println("\n1. Mostrar\n2. Añadir\n3. Eliminar\n4. Guardar y salir");
             System.out.print("Opción: ");
             opc = sc.nextInt();
-            sc.nextLine(); // limpiar buffer
+            sc.nextLine(); // limpia el buffer
 
             switch (opc) {
-                case 1 -> lista.mostrar();
+                case 1 -> lista.mostrar(); // muestra contenido
                 case 2 -> {
                     System.out.print("Palabra nueva: ");
-                    lista.insertar(sc.nextLine());
+                    lista.insertar(sc.nextLine()); // añade palabra nueva
                 }
                 case 3 -> {
                     System.out.print("Palabra a eliminar: ");
@@ -116,11 +123,13 @@ public class ejercicio2 {
                     else System.out.println("No encontrada.");
                 }
                 case 4 -> {
-                    lista.escribirArchivo(archivo);
+                    lista.escribirArchivo(archivo); // guarda cambios
                     System.out.println("Archivo guardado.");
                 }
+                default -> System.out.println("Opción inválida.");
             }
-        } while (opc != 4);
+        } while (opc != 4); 
     }
 }
+
 
