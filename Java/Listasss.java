@@ -6,35 +6,34 @@ package com.mycompany.listasss;
 import java.util.Scanner;
 /**
  *
- * @author Alondra Vianney Hernandez Torres
+ * @author Alondra Vianney
  */
 
 //Actividad 03  
-//Representación y Evaluación de Polinomios con Listas Enlazadas
+//Representación y Evaluación de Polinomios con Listas Enlazadas (Clase Genérica T)
 
-
-
-class Nodo {
-    double coeficiente;
+class Nodo<T> {
+    T coeficiente;
     int exponente;
-    Nodo siguiente;
+    Nodo<T> siguiente;
 
-    public Nodo(double coeficiente, int exponente) {
+    public Nodo(T coeficiente, int exponente) {
         this.coeficiente = coeficiente;
         this.exponente = exponente;
         this.siguiente = null;
     }
 }
 
-class ListaPolinomio {
-    private Nodo cabeza;
+class ListaPolinomio<T extends Number> {
+    private Nodo<T> cabeza;
 
-    public void agregarTermino(double coeficiente, int exponente) {
-        Nodo nuevo = new Nodo(coeficiente, exponente);
+    // Agrega un término al final de la lista
+    public void agregarTermino(T coeficiente, int exponente) {
+        Nodo<T> nuevo = new Nodo<>(coeficiente, exponente);
         if (cabeza == null) {
             cabeza = nuevo;
         } else {
-            Nodo actual = cabeza;
+            Nodo<T> actual = cabeza;
             while (actual.siguiente != null) {
                 actual = actual.siguiente;
             }
@@ -42,20 +41,22 @@ class ListaPolinomio {
         }
     }
 
-    // Evalúa el polinomio en un valor x
+    // Evalúa el polinomio en un valor de x
     public double evaluar(double x) {
         double resultado = 0.0;
-        Nodo actual = cabeza;
+        Nodo<T> actual = cabeza;
         while (actual != null) {
-            resultado += actual.coeficiente * Math.pow(x, actual.exponente);
+            // Convierte el coeficiente genérico T a double
+            double coef = actual.coeficiente.doubleValue();
+            resultado += coef * Math.pow(x, actual.exponente);
             actual = actual.siguiente;
         }
         return resultado;
     }
 
-    // Muestra la lista como polinomio
+    // Muestra el polinomio en formato legible
     public void mostrarPolinomio() {
-        Nodo actual = cabeza;
+        Nodo<T> actual = cabeza;
         System.out.print("P(x) = ");
         while (actual != null) {
             System.out.print(actual.coeficiente + "x^" + actual.exponente);
@@ -66,12 +67,12 @@ class ListaPolinomio {
     }
 }
 
-public class Listasss{
+public class Listasss {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ListaPolinomio polinomio = new ListaPolinomio();
+        ListaPolinomio<Double> polinomio = new ListaPolinomio<>();
 
-        System.out.println("=== Representación y Evaluación de Polinomios con Listas Enlazadas ===");
+        System.out.println("=== Representación y Evaluación de Polinomios con Listas Enlazadas (Genéricas) ===");
         System.out.print("¿Cuántos términos tendrá el polinomio?: ");
         int n = sc.nextInt();
 
@@ -89,7 +90,7 @@ public class Listasss{
         System.out.println();
         polinomio.mostrarPolinomio();
 
-        // Evaluación del polinomio
+        // Evaluar el polinomio en varios valores
         System.out.println("\nTabla de valores:");
         System.out.println(" x\t|\tP(x)");
         System.out.println("------------------------");
