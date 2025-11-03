@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Alondra Vianney Hernandez Torres
  */
 //Actividad 04 
-//Polinomio con Lista Enlazada Circular (usando clase genérica <T>)
+//Polinomio con Lista Enlazada Circular 
 //Objetivo: Aplicar listas enlazadas circulares usando tipos genéricos para mayor flexibilidad.
 
 
