@@ -17,7 +17,7 @@
 
 
 
-<img align="right" width="400" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
+<img align="right" width="300" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
 
 
  | GUIADOS | LINKS |
@@ -39,8 +39,6 @@
 
 
 ⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
-
-https://github.com/Vivian-14/Vivian-14/tree/main/Java
 
  | PRACTICOS | LINKS |
 | ------------- | ------------- |
