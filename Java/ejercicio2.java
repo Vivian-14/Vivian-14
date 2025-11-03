@@ -15,7 +15,7 @@ import java.util.*;
 // Desarrollar un programa que lea palabras desde un archivo de texto y las almacene en una
 // lista enlazada, permitiendo su manipulación dinámica.
 
-public class ejercicio2<T> { // <-- Se agrega <T> para usar tipo genérico
+public class ejercicio2<T> { 
     // Clase interna Nodo, ahora genérica
     class Nodo {
         T palabra;    // dato genérico (puede ser String, Integer, etc.)
