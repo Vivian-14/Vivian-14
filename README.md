@@ -57,14 +57,8 @@
 | PRACTICOS COLAS | LINKS | VIDEOS |
 | ------------- | ------------- | ------------- |
 | PSEUDOCODIGO|[Ver PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Pilas%20y%20Colas%20Pseudocodigo.pdf) |
-| Ejercicio 1: Comparación de colas |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ComparacionDeColas1.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian14/blob/main/Videos/ComparacionColas1.mkv)|
+| Ejercicio 1: Comparación de colas |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ComparacionDeColas1.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian-14/blob/main/Videos/ComparacionColas1.mkv)|
 
-
-
-<video controls width="640">
-  <source src="https://github.com/Vivian-14/Vivian14/raw/main/Videos/ComparacionColas1.mkv" type="video/mp4">
-  Tu navegador no soporta el video.
-</video>
 
 
 
