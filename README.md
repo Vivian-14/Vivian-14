@@ -36,7 +36,7 @@
 
 ⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
 
- | PRACTICOS | LINKS |
+ | PRACTICOS LISTAS | LINKS |
 | ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2GB%20Ejercicios%20Pr%C3%A1cticos%20Listas.pdf) |
 |   1 MANIPULACION LISTA ENLANZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/MainLista.java) |
@@ -46,8 +46,19 @@
 | 5 LISTA DOBLEMENTE ENLAZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Main.java) |
 
 
+| PRACTICOS PILAS | LINKS |
+| ------------- | ------------- |
+| PSEUDOCODIGO|[Ver PDF]() |
+| 2. Pila de nombres |[Ver Codigo]() |
+| 3. Verificar si una pila está vacía |[Ver Codigo]() |
+| 4. Invertir una palabra |[Ver Codigo]() |
+| 6. Decimal a binario |[Ver Codigo]() |
 
-
+| PRACTICOS COLAS | LINKS |
+| ------------- | ------------- |
+| PSEUDOCODIGO|[Ver PDF]() |
+| 
+Ejercicio 1: Comparación de colas |[Ver Codigo]() |
 
 
   
