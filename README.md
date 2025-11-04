@@ -16,10 +16,6 @@
 
 
 
-
-<img align="right" width="290" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
-
-
  | GUIADOS | LINKS |
 | ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞 𝔈𝔫𝔩𝔞𝔷𝔞𝔡𝔞 𝔖𝔦𝔪𝔭𝔩𝔢 𝔠𝔬𝔫 𝔙𝔦𝔰𝔲𝔄𝔩𝔤𝔬  | [Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT1%20Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo%20(5).pdf)|
