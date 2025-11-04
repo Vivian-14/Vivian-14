@@ -24,7 +24,7 @@ import java.util.Stack;
  * El método isEmpty() devuelve true si la pila no tiene elementos,
  * y false si ya contiene algo.
  */
-public class PilaVacia3<T> { // <-- Se agregó la clase genérica <T>
+public class PilaVacia3<T> { 
     public static void main(String[] args) {
         
         // Se crea una pila vacía de tipo entero
@@ -43,3 +43,4 @@ public class PilaVacia3<T> { // <-- Se agregó la clase genérica <T>
         //Ahora debe mostrar false, porque ya hay un elemento dentro.
     }
 }
+
