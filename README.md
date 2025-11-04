@@ -17,12 +17,8 @@
 
 
 
-<img align="right" width="400" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
+<img align="right" width="290" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
 
-
-⭐𝑬𝒋𝒆𝒓𝒄𝒊𝒄𝒊𝒐𝒔 𝑮𝒖𝒊𝒂𝒅𝒐𝒔/𝑷𝒓𝒂𝒄𝒕𝒊𝒄𝒐𝒔⭐
-
-(https://github.com/Vivian-14/Vivian-14/tree/main/docs)
 
  | GUIADOS | LINKS |
 | ------------- | ------------- |
@@ -37,21 +33,22 @@
 | Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Codigo 1 reto](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Cola.java) |
 | Colas  𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[Codigo Menu Colas](https://github.com/Vivian-14/Vivian-14/blob/main/Java/PruebaCola.java) |
 | 𝔗𝔢𝔪𝔞 𝔡𝔢 𝔠𝔬𝔩𝔞𝔰  |[VER VIDEO FUNCIONAL COLAS](https://github.com/Vivian-14/Vivian-14/commit/77cb2ce385e4fabd8b7aab009f4d2495ddeeee90#diff-321549424ba434a7c5c2cefcc81be163b1c648fa585775a639c1d85abf1fa897) |
+| Ordenamiento Burbuja  |[VER PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Ordenamiento%20Burbuja.pdf) |
+
 
 
 
 ⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
 
-https://github.com/Vivian-14/Vivian-14/tree/main/Java
-
  | PRACTICOS | LINKS |
 | ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2GB%20Ejercicios%20Pr%C3%A1cticos%20Listas.pdf) |
-| CODIGO 1 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/MainLista.java) |
-| CODIGO 2 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ejercicio2.java) |
-| CODIGO 3 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Listasss.java) |
-| CODIGO 4 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/maincircular.java) |
-| CODIGO 5 |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Main.java) |
+|   1 MANIPULACION LISTA ENLANZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/MainLista.java) |
+| 2 LISTA ENLAZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ejercicio2.java) |
+| 3  POLINOMIOS CON LISTAS ENLAZADAS |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Listasss.java) |
+| 4 POLINOMIO LISTA ENLAZADA CIRCULAR |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/maincircular.java) |
+| 5 LISTA DOBLEMENTE ENLAZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Main.java) |
+
 
 
 
