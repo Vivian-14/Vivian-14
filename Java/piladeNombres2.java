@@ -23,7 +23,7 @@ import java.util.Stack;
  * El objetivo es comprender cómo se comporta una pila (estructura LIFO)
  * y practicar su uso en Java con la clase Stack.
  */
-public class piladeNombres2<T> { // <-- Se añadió la clase genérica <T>
+public class piladeNombres2<T> { 
 
     public static void main(String[] args) {
         
@@ -68,3 +68,4 @@ public class piladeNombres2<T> { // <-- Se añadió la clase genérica <T>
         sc.close(); // Cerramos el Scanner para liberar recursos
     }
 }
+
