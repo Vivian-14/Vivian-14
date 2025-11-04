@@ -57,8 +57,7 @@
 | PRACTICOS COLAS | LINKS |
 | ------------- | ------------- |
 | PSEUDOCODIGO|[Ver PDF]() |
-| 
-Ejercicio 1: Comparación de colas |[Ver Codigo]() |
+| Ejercicio 1: Comparación de colas |[Ver Codigo]() |
 
 
   
