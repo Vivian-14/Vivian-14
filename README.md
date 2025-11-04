@@ -16,10 +16,6 @@
 
 
 
-
-<img align="right" width="290" alt="Shimarin" src="https://i.pinimg.com/736x/d2/6a/4c/d26a4ccec12bb03fec246f2c983c7614.jpg"/>
-
-
  | GUIADOS | LINKS |
 | ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞 𝔈𝔫𝔩𝔞𝔷𝔞𝔡𝔞 𝔖𝔦𝔪𝔭𝔩𝔢 𝔠𝔬𝔫 𝔙𝔦𝔰𝔲𝔄𝔩𝔤𝔬  | [Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2ACT1%20Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo%20(5).pdf)|
@@ -40,7 +36,7 @@
 
 ⭐𝘾𝙤𝙙𝙞𝙜𝙤𝙨 𝙅𝙖𝙫𝙖⭐
 
- | PRACTICOS | LINKS |
+ | PRACTICOS LISTAS | LINKS |
 | ------------- | ------------- |
 | U2ACT1 𝔈𝔧𝔢𝔯𝔠𝔦𝔠𝔦𝔬𝔰 𝔓𝔯á𝔠𝔱𝔦𝔠𝔬𝔰 𝔡𝔢 𝔏𝔦𝔰𝔱𝔞𝔰 |[Ver ejercicio](https://github.com/Vivian-14/Vivian-14/blob/main/docs/U2GB%20Ejercicios%20Pr%C3%A1cticos%20Listas.pdf) |
 |   1 MANIPULACION LISTA ENLANZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/MainLista.java) |
@@ -50,8 +46,18 @@
 | 5 LISTA DOBLEMENTE ENLAZADA |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/Main.java) |
 
 
+| PRACTICOS PILAS | LINKS | VIDEOSS |
+| ------------- | ------------- |------------- |
+| PSEUDOCODIGO|[Ver PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Pilas%20y%20Colas%20Pseudocodigo.pdf) |
+| 2. Pila de nombres |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/piladeNombres2.java) |
+| 3. Verificar si una pila está vacía |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/PilaVacia3.java) |
+| 4. Invertir una palabra |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/invertirPalabra4.java) |
+| 6. Decimal a binario |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/DecimalBinario6.java) |
 
-
+| PRACTICOS COLAS | LINKS | VIDEOS |
+| ------------- | ------------- | ------------- |
+| PSEUDOCODIGO|[Ver PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Pilas%20y%20Colas%20Pseudocodigo.pdf) |
+| Ejercicio 1: Comparación de colas |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ComparacionDeColas1.java) |
 
 
   
