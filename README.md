@@ -13,6 +13,47 @@
 
 <h2> ✞ 𝔄𝔩𝔬𝔫𝔡𝔯𝔞 𝔙𝔦𝔞𝔫𝔫𝔢𝔶 ℌ𝔢𝔯𝔫á𝔫𝔡𝔢𝔷 𝔗𝔬𝔯𝔯𝔢𝔰 ✞  </h2>
 
+<h2> ✞ UNIDAD 3 ESTRUCTURA DE DATOS AVANZADA✞  </h2>
+
+ | GUIADOS | LINKS |
+| ------------- | ------------- |
+| U3 EJERCICIO GUIADO SWING  | [Ver ejercicio]()|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,16 +89,19 @@
 
 | PRACTICOS PILAS | LINKS | VIDEOSS |
 | ------------- | ------------- |------------- |
-| PSEUDOCODIGO|[Ver PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Pilas%20y%20Colas%20Pseudocodigo.pdf) |
-| 2. Pila de nombres |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/piladeNombres2.java) |
-| 3. Verificar si una pila está vacía |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/PilaVacia3.java) |
-| 4. Invertir una palabra |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/invertirPalabra4.java) |
-| 6. Decimal a binario |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/DecimalBinario6.java) |
+| PSEUDOCODIGO|[Ver PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Pilas%20y%20Colas%20Pseudocodigo.pdf) 
+| 2. Pila de nombres |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/piladeNombres2.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian-14/blob/main/Videos/PilaNombreEjemplo.mkv) |
+| 3. Verificar si una pila está vacía |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/PilaVacia3.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian-14/blob/main/Videos/PilaVaciaEjemplo.mkv) |
+| 4. Invertir una palabra |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/invertirPalabra4.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian-14/blob/main/Videos/InvertirPalabraEjemplo.mkv) |
+| 6. Decimal a binario |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/DecimalBinario6.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian-14/blob/main/Videos/DecimalBinarioEjempo.mkv) |
 
 | PRACTICOS COLAS | LINKS | VIDEOS |
 | ------------- | ------------- | ------------- |
 | PSEUDOCODIGO|[Ver PDF](https://github.com/Vivian-14/Vivian-14/blob/main/docs/Pilas%20y%20Colas%20Pseudocodigo.pdf) |
-| Ejercicio 1: Comparación de colas |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ComparacionDeColas1.java) |
+| Ejercicio 1: Comparación de colas |[Ver Codigo](https://github.com/Vivian-14/Vivian-14/blob/main/Java/ComparacionDeColas1.java) |[Ver Videoo](https://github.com/Vivian-14/Vivian-14/blob/main/Videos/ComparacionColas1.mkv)|
+
+
+
 
 
   

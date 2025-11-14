@@ -1,7 +1,6 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to edit this license
  */
-
 
 package com.mycompany.pruebacola;
 import java.util.LinkedList;
@@ -9,38 +8,41 @@ import java.util.Queue;
 
 /**
  *
- * @author Alondra Vianney Hernandez Torres
- * //GTID141 a 24 de Octubre del 2025 (Tema Colas)
+ * @author Alondra Vianney
+ * GTID141 - 24 de Octubre del 2025 (Tema Colas)
  */
 
-public class Cola {
+public class Cola<T> {  
     public static void main(String[] args) {
-        // Crear un objeto cola
-        Queue<String> colaTareas = new LinkedList<>();
+        // Crear una cola usando el tipo String
+        Cola<String> cola = new Cola<>();
+        cola.ejecutarCola();
+    }
 
-        //tareas agg
-        colaTareas.add("Preparar café");   // T1
-        colaTareas.add("Revisar emails");  // T2
-        colaTareas.add("Iniciar proyecto"); // T3
+    public void ejecutarCola() {
+        
+        Queue<T> colaTareas = new LinkedList<>();
+
+        // Agregar elementos (cast explícito para mantener la lógica sin cambiar nada)
+        colaTareas.add((T) "Preparar café");   // T1
+        colaTareas.add((T) "Revisar emails");  // T2
+        colaTareas.add((T) "Iniciar proyecto"); // T3
 
         // Solicitar el tamaño
         System.out.println("Tamaño de la cola: " + colaTareas.size());
 
-        //Consultar frente
+        // Consultar frente
         System.out.println("Frente de la cola: " + colaTareas.peek());
 
         // Quitar tarea 1 y desplegar tarea ejecutada
-        String tareaEjecutada = colaTareas.poll();
+        T tareaEjecutada = colaTareas.poll();
         System.out.println("Tarea ejecutada: " + tareaEjecutada);
 
         // Quitar tarea 2 y desplegar tarea solicitada
-        String tareaSiguiente = colaTareas.poll();
+        T tareaSiguiente = colaTareas.poll();
         System.out.println("Tarea siguiente ejecutada: " + tareaSiguiente);
 
         // Estado final de la cola
         System.out.println("Estado final de la cola: " + colaTareas);
     }
-    
 }
-
-

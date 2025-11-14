@@ -1,3 +1,5 @@
+
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -22,7 +24,7 @@ import java.util.Stack;
  * El método isEmpty() devuelve true si la pila no tiene elementos,
  * y false si ya contiene algo.
  */
-public class PilaVacia3 {
+public class PilaVacia3<T> { 
     public static void main(String[] args) {
         
         // Se crea una pila vacía de tipo entero
@@ -41,3 +43,4 @@ public class PilaVacia3 {
         //Ahora debe mostrar false, porque ya hay un elemento dentro.
     }
 }
+

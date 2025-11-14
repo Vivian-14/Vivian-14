@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -23,7 +24,7 @@ import java.util.Scanner;
  * convertir un número decimal en binario sin usar funciones predefinidas.
  * La pila ayuda a invertir el orden de los restos obtenidos.
  */
-public class DecimalBinario6 {
+public class DecimalBinario6<T> { 
     public static void main(String[] args) {
         
         // Scanner para leer el número ingresado por el usuario
@@ -54,5 +55,3 @@ public class DecimalBinario6 {
         sc.close(); // Se cierra el Scanner shi
     }
 }
-
-

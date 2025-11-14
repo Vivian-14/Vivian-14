@@ -1,5 +1,5 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to edit this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.pruebacola;
@@ -14,9 +14,15 @@ import java.util.Scanner;
  * GTID141 a 24 de Octubre del 2025 (Tema Colas)
  */
 
-public class PruebaCola{
+public class PruebaCola<T> {
     public static void main(String[] args) {
-        Queue<String> colaTareas = new LinkedList<>();
+    
+        PruebaCola<String> app = new PruebaCola<>();
+        app.iniciar();
+    }
+
+    public void iniciar() {
+        Queue<T> colaTareas = new LinkedList<>();
         Scanner sc = new Scanner(System.in);
         int opcion;
         
@@ -34,7 +40,7 @@ public class PruebaCola{
             switch (opcion) {
                 case 1:
                     System.out.print("Ingresa la tarea a agregar: ");
-                    String tarea = sc.nextLine();
+                    T tarea = (T) sc.nextLine(); // cast para mantener el tipo genérico
                     colaTareas.add(tarea);
                     System.out.println("Tarea agregada: " + tarea);
                     break;
@@ -49,7 +55,7 @@ public class PruebaCola{
                     
                 case 3:
                     if (!colaTareas.isEmpty()) {
-                        String tareaEjecutada = colaTareas.poll();
+                        T tareaEjecutada = colaTareas.poll();
                         System.out.println("Tarea ejecutada: " + tareaEjecutada);
                     } else {
                         System.out.println("No hay tareas para ejecutar");
@@ -73,3 +79,5 @@ public class PruebaCola{
         sc.close();
     }
 }
+
+

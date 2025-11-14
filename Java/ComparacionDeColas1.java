@@ -25,7 +25,7 @@ import java.util.Scanner;
  * donde el primer elemento en entrar es el primero en salir.
  * El objetivo es comparar dos colas y verificar si son iguales.
  */
-public class ComparacionDeColas1  {
+public class ComparacionDeColas1<T>  { 
 
    // Método para comparar dos colas sin perder su contenido
     public static boolean compararColas(Queue<Integer> cola1, Queue<Integer> cola2) {
@@ -98,4 +98,5 @@ public class ComparacionDeColas1  {
         // Mostrar resultado final
         System.out.println("\n¿Las colas son idénticas? " + iguales);
     }
+
 }

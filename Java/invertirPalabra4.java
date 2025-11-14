@@ -22,7 +22,7 @@ import java.util.Stack;
  * de una palabra. La pila nos ayuda porque el último carácter en entrar
  * será el primero en salir, logrando así la inversión.
  */
-public class invertirPalabra4 {
+public class invertirPalabra4<T> { 
     public static void main(String[] args) {
         
         // Scanner sirve para leer lo que escribe el usuario
@@ -52,3 +52,4 @@ public class invertirPalabra4 {
         sc.close(); // Cerramos el Scanner pa la memoria osisissisi
     }
 }
+
